@@ -47,6 +47,7 @@ public class ClaseBiblioteca {
 
         for (int i = 0; i < M.length; i++) {
             int vecesrepetido = 0;
+            System.out.print("Ingresar los numeros: ");
             M[i] = sc.nextInt();
 
             for (int j = 0; j < M.length; j++) {
@@ -243,6 +244,7 @@ public class ClaseBiblioteca {
             }
 
             //imprimir
+            System.out.println("La suma de la matriz es: ");
             for (int i = 0; i < fila; i++) {
                 for (int j = 0; j < columna; j++) {
                     System.out.print(matriz1[i][j] + " ");
@@ -320,6 +322,7 @@ public class ClaseBiblioteca {
                 }
             }
             //imprimir
+            System.out.println("La multiplicacion de la matriz es: ");
             for (int i = 0; i < matriz2.length; i++) {
                 for (int j = 0; j < matriz2.length; j++) {
                     System.out.print(matriz2[i][j] + " ");
@@ -638,6 +641,7 @@ public class ClaseBiblioteca {
         }
 
         //imprimir
+        System.out.println("Se muestra la matriz en Espiral: ");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 System.out.print("\t" + M[i][j]);
